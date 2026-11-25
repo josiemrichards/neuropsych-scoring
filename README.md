@@ -28,7 +28,7 @@ Hand-scoring screening tests is slow and error-prone: wrong conversions
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/neuropsych-scoring.git
+git clone https://github.com/josiemrichards/neuropsych-scoring.git
 cd neuropsych-scoring
 pip install -e ".[dev]"
 

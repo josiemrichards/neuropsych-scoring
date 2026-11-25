@@ -1,0 +1,84 @@
+{
+  "name": "DEMO norms",
+  "is_demo": true,
+  "description": "INVENTED values that only show the file format. They do NOT come from any publication and must NEVER be used to interpret real patients. Replace them with the coefficients and cut-offs of the published Italian norms (see norms/README.md).",
+  "norms": [
+    {
+      "instrument": "moca",
+      "score": "total",
+      "source": "DEMO - invented values",
+      "range": [0, 30],
+      "clip": true,
+      "correction": {
+        "type": "regression",
+        "terms": [
+          {"variable": "age", "transform": "identity", "coef": -0.05, "center": 65},
+          {"variable": "education_years", "transform": "identity", "coef": 0.30, "center": 10}
+        ]
+      },
+      "equivalent_scores": [17.0, 19.0, 21.0, 23.0]
+    },
+    {
+      "instrument": "mmse",
+      "score": "total",
+      "source": "DEMO - invented values (example of a correction grid)",
+      "range": [0, 30],
+      "clip": true,
+      "correction": {
+        "type": "table",
+        "age_bands": [[18, 64], [65, 74], [75, 84], [85, 110]],
+        "education_bands": [[0, 4], [5, 7], [8, 12], [13, 30]],
+        "values": [
+          [0.5, 0.0, -0.5, -1.0],
+          [1.0, 0.5, 0.0, -0.5],
+          [1.5, 1.0, 0.5, 0.0],
+          [2.0, 1.5, 1.0, 0.5]
+        ]
+      },
+      "equivalent_scores": [21.0, 22.5, 24.0, 25.5]
+    },
+    {
+      "instrument": "fab",
+      "score": "total",
+      "source": "DEMO - invented values",
+      "range": [0, 18],
+      "clip": true,
+      "correction": {
+        "type": "regression",
+        "terms": [
+          {"variable": "age", "transform": "log100minus", "coef": 2.0, "center": 3.5},
+          {"variable": "education_years", "transform": "sqrt", "coef": 1.5, "center": 3.0}
+        ]
+      },
+      "equivalent_scores": [11.0, 12.5, 14.0, 15.5]
+    },
+    {
+      "instrument": "ravlt",
+      "score": "total",
+      "source": "DEMO - invented values",
+      "range": [0, 75],
+      "correction": {
+        "type": "regression",
+        "terms": [
+          {"variable": "age", "transform": "identity", "coef": -0.25, "center": 55},
+          {"variable": "education_years", "transform": "identity", "coef": 0.6, "center": 10}
+        ]
+      },
+      "equivalent_scores": [28.0, 32.0, 36.0, 40.0]
+    },
+    {
+      "instrument": "ravlt",
+      "score": "delayed_recall",
+      "source": "DEMO - invented values",
+      "range": [0, 15],
+      "correction": {
+        "type": "regression",
+        "terms": [
+          {"variable": "age", "transform": "identity", "coef": -0.08, "center": 55},
+          {"variable": "education_years", "transform": "identity", "coef": 0.15, "center": 10}
+        ]
+      },
+      "equivalent_scores": [4.5, 5.5, 7.0, 8.5]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+patient_id,age,education_years,sex,moca_trail,moca_cube,moca_clock_contour,moca_clock_numbers,moca_clock_hands,moca_naming,moca_digits_forward,moca_digits_backward,moca_letters_errors,moca_serial7_correct,moca_repetition,moca_fluency_words,moca_abstraction,moca_delayed_recall,moca_orientation,mmse_orientation_time,mmse_orientation_place,mmse_registration,mmse_attention,mmse_recall,mmse_naming,mmse_repetition,mmse_command,mmse_reading,mmse_writing,mmse_copying,fab_similarities,fab_fluency_words,fab_motor_series,fab_conflicting,fab_go_nogo,fab_prehension,ravlt_t1,ravlt_t2,ravlt_t3,ravlt_t4,ravlt_t5,ravlt_tb,ravlt_t6,ravlt_delayed,ravlt_recog_hits,ravlt_recog_fp
+SIM001,68,13,F,1,1,1,1,1,3,1,1,0,5,2,14,2,4,6,5,5,3,5,3,2,1,3,1,1,1,3,12,3,3,3,3,6,8,10,11,12,5,10,10,14,1
+SIM002,77,5,M,0,1,1,1,0,2,1,0,2,3,1,8,1,1,5,4,5,3,3,1,2,1,3,1,1,0,2,5,2,2,1,3,3,4,5,6,6,3,4,2,9,5
+SIM003,72,8,F,1,0,1,1,1,3,1,1,1,4,2,11,2,2,6,5,5,3,4,2,2,1,3,1,1,1,2,7,3,3,2,3,4,6,7,8,9,4,7,5,12,2
+SIM004,81,4,M,0,0,1,0,0,2,1,0,4,1,1,5,0,0,3,2,4,3,1,0,2,1,2,1,0,0,1,2,1,1,1,3,2,3,3,4,4,2,2,0,6,8
+SIM005,59,17,F,1,1,1,1,1,3,1,1,0,5,2,16,2,5,6,5,5,3,5,3,2,1,3,1,1,1,3,14,3,3,3,3,8,11,13,14,15,7,14,13,15,0
+SIM006,74,8,F,1,1,1,1,1,3,1,1,0,4,2,12,2,3,6,5,5,3,5,2,2,1,3,1,1,1,3,9,3,3,3,3,5,7,9,9,10,4,8,7,13,1
+SIM007,70,10,M,1,1,1,1,1,3,1,1,0,4,4,12,2,3,6,,,,,,,,,,,,,,,,,,,,,,,,,,,
